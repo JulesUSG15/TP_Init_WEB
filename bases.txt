@@ -1,0 +1,89 @@
+﻿Les bases du langage HTML (titre 1)
+
+Introduction
+Les balises titres
+Les paragraphes
+Les listes
+Formatage du texte
+Les styles
+
+
+
+Introduction (titre 2)
+
+HTML est un langage pour décrire des pages Web :
+   HTML signifie Hyper Text Markup Language
+   HTML n'est pas un langage de programmation, il est un langage de balisage
+   Un langage de balisage est un ensemble de balises
+   Le langage HTML utilise des balises pour décrire des pages Web
+
+Le but d'un navigateur web (comme Edge ou Firefox) est de lire les documents HTML et de les afficher sous forme de pages Web. Le navigateur n'affiche pas les balises HTML, mais utilise les balises pour interpréter le contenu de la page.
+
+Exemples :
+   Le texte entre <html> et </ html> décrit la page web
+   Le texte entre <body> et </ body> est le contenu de la page visible
+   Le texte entre <h1> et </ h1> est affiché comme un titre de niveau 1
+   Le texte entre <p> et </ p> est affiché comme un paragraphe
+
+   
+Les balises titres (titre 2)
+
+Les titres sont définis avec les balises <h1> à <h6>.
+
+Utilisez les balises titres HTML pour les titres seulement. Ne pas utiliser les balises titres pour rendre le texte GROS ou gras.
+Les moteurs de recherche utilisent vos balises titres pour indexer la structure et le contenu de vos pages web. Il est important de les utiliser pour structurer le document.
+Les balises H1 devraient être utilisées comme rubriques principales, suivies de balises H2, puis les balises H3 moins importantes, et ainsi de suite.
+
+
+Les paragraphes (titre 2)
+
+Les paragraphes sont définies avec la balise <p>.
+La balise <br> insère un saut de ligne.
+La balise <hr> insére une ligne horizontale.
+
+
+Les listes (titre 2)
+
+Voici une liste numérotée :
+	1. OL
+	2. LOSC
+	3. OM
+	4. PSG
+	5. ASSE
+	
+Voici une liste non numérotée :
+	* ASSE
+	* PSG
+	* OM
+	* OL
+	* LOSC
+
+
+Formatage du texte (titre 2)
+
+Quelles balises permettent de mettre le texte comme indiqué ? 
+Ce texte est gras.
+Ce texte est italique.
+Ce texte est souligné.
+Ce texte est barré.
+Ce texte est petit.
+
+La balise <pre> définit du texte préformaté.
+Le texte dans un élément "pre" est affiché dans une police à largeur fixe (habituellement Courier), et il préserve à la fois les espaces et les sauts de ligne. Il est conseillé d'utiliser l'élément "pre" pour afficher des lignes de code informatique.
+Exemple :
+	for(int i=0;i<20;i++)
+	{
+		cout << i << " ";
+	}
+
+Balise <abbr> :
+Je suis étudiant à Polytech Lyon.
+
+
+Les styles (titre 2)
+
+CSS a été introduit avec le HTML 4, dans le but de fournir une voie commune pour le style des éléments HTML.
+Les styles CSS peuvent être ajoutés à HTML de la manière suivante :
+     - dans des fichiers séparés CSS (la meilleure !)
+     - dans la section head HTML à l'intérieur de la balise <style>
+     - dans l'attribut "style" des éléments HTML simple.
