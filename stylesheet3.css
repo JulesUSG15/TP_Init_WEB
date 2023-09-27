@@ -1,0 +1,91 @@
+/*
+	Nom : stylesheet3.css
+	Créé le 29/01/2020
+	Description :
+		Exemple d'introduction du CSS de w3shools
+		Feuille de style n°3
+*/
+
+body {
+    font: 100% Verdana;
+    margin: 20px;
+    line-height: 26px;
+}
+
+.container {
+    min-width: 900px;
+}
+
+.wrapper {
+    position: relative;
+    overflow: auto;
+}
+
+#sidebar {
+    background-color: #f1f1f1;
+    border: 1px solid #d4d4d4;
+    padding-left: 10px;
+}
+
+#bottom {
+    text-align: center;
+    padding: 10px;
+    font-size: 70%;
+    line-height: 14px;
+}
+
+h1, h2, h3 {
+    color: #4CAF50;
+}
+
+#menulist {
+    padding: 0;
+    position: relative;
+    overflow: auto;
+}
+
+.menuitem {
+    width: 165px;
+    float: left;
+    background-color: #555555;
+    color: #ffffff;
+    list-style-type: none;
+    margin: 4px;
+    padding: 2px;
+    text-align: center;
+    /*cursor: pointer;*/
+}
+
+.menuitem:nth-child(3) {
+   background-color:#4CAF50;
+}
+
+.menuitem:nth-child(3) a:hover {
+   background-color:#4CAF50;
+}
+
+.menuitem:nth-child(3):hover {
+   background-color:#4CAF50;
+}
+
+.menuitem a{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.menuitem:hover {
+    background-color: #999999;
+}
+
+.menuitem a:hover{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+a {
+    color: #000000;
+}
+
+a:hover {
+    color: #84c754;
+}
