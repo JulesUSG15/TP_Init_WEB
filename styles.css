@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    font-size: 2em;
+    line-height: 1.2em;
+    margin: 10px;
+    padding: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+}
+
+section {
+    margin: 10px;
+}
+
+article {
+    margin: 10px;
+    padding: 10px;
+    border: 2px dotted grey;
+}
+
+p {
+    margin: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-variant: small-caps;
+}
+
+h2 {
+    padding-left: 10px;
+    background-color: red;
+    border-left: 50px solid black;
+    font-size: 1.5em;
+    text-transform: capitalize;
+    padding : 10px;
+}
+
+#info {
+    width: 600px;
+    background-color: brown;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 2em;
+    padding: 10px;
+    margin: auto;
+}
+
+.documentation {
+    background-color: green;
+    color: white;
+    padding: 10px;
+}
+
+.documentation a{
+    text-decoration: none;
+    background-color: darkgreen;
+    color: yellowgreen;
+    padding: 5px;
+}
+
+.documentation a:hover{
+    background-color: yellowgreen;
+    color: darkgreen;
+}
+
+.code {
+    font-family: courier;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+pre {
+    padding: 10px;
+    margin: 10px;
+}
+
+table {
+    width: 100%;
+    margin: auto;
+}
+
+table tr {
+    height: 2em;
+}
+
+table th {
+    background-color: darkblue;
+    color: white;
+    height: 3em;
+}
+
+table td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+table tr:nth-child(even) {
+    background-color: lightblue;
+}
+
+table tr:last-child {
+    color: blue;
+}
