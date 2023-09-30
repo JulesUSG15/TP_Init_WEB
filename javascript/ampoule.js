@@ -8,9 +8,9 @@ function OnOffAmpoule() {
     // Vérifiez si l'ampoule est allumée ou éteinte
     if (currentSrc.search("pic_bulboff.gif") !== -1) {
         // Si elle est éteinte, allumez-la
-        ampoule.setAttribute("src", "pic_bulbon.gif");
+        ampoule.setAttribute("src", "images/pic_bulbon.gif");
     } else {
         // Sinon, éteignez-la
-        ampoule.setAttribute("src", "pic_bulboff.gif");
+        ampoule.setAttribute("src", "images/pic_bulboff.gif");
     }
 }
