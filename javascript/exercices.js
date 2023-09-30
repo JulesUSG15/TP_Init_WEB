@@ -78,26 +78,28 @@ function Appeler_Range()
 // Fonction Range(stop, start=0, step=1)
 // Retourne/Renvoie le tableau des entiers compris entre start (inclus) et 
 // stop (exclu) avec un pas de step.
-function Range(stop, start=0, step=1)
-{
-	// contrôle des paramètres
-	if (!Number.isInteger(stop) || !Number.isInteger(start) || !Number.isInteger(step))
-	{    
-		return undefined;
-	}
-	
-	// cas particulier
-	if (step==0)
-	{
-		return undefined;
-	}
-	
-	// cas général
-	let range = [];
-	for(let i=start; i<stop; i+=step)
-	{
-		range.push(i);
-	}
-	return range;
+// si start n'est pas défini, il vaut 0
+// si step n'est pas défini, il vaut 1
+// par simplification, on ne traitera que le cas où step est strictement positif
+// si stop est inférieur ou égal à start, on renvoie un tableau vide
+// exemple Range(10, 0) == range(10) == [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+// exemple Range(10, 4, 2) == [4, 6, 8]
+// exemple Range(-2, 0) == []
 
-}
+function Range(stop, start = 0, step = 1) {
+	// Vérifier si stop est inférieur ou égal à start
+	if (stop <= start || step <= 0) {
+	  return [];
+	}
+
+	// Initialiser un tableau pour stocker les entiers
+	const result = [];
+  
+	// Boucle pour générer les entiers dans la plage spécifiée
+	for (let i = start; i < stop; i += step) {
+	  result.push(i);
+	}
+  
+	return result;
+  }
+
