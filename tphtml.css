@@ -104,3 +104,89 @@ h1{font-size: 26px;}
 abbr {
     text-decoration: underline dotted;
 }
+
+.dark-mode {
+    background: black;
+    color: gray;
+}
+
+.dark-mode h1 {
+	color: gray;
+}
+
+.dark-mode a {
+	color: gray;
+}
+
+.dark-mode nav a {
+	color: gray;
+}
+
+.dark-mode nav a:hover {
+	background-color: #175;
+	color: gray;
+}
+
+.dark-mode nav a.clic{
+	background-color: #175;
+	color: gray;
+}
+
+.dark-mode footer {
+	background-color: #175;
+	color: gray;
+}
+
+.dark-mode #iframe_css {
+	background-color: #175;
+	color: gray;
+}
+
+.dark-mode table, th, td {
+	border: 1px solid gray;
+}
+
+.dark-mode p {
+	color: gray;
+}
+
+.dark-mode abbr {
+	color: gray;
+}
+
+.dark-mode #iframe_css {
+	color: gray;
+}
+
+.dark-mode #iframe_css a {
+	color: gray;
+}
+
+.dark-mode #iframe_css a:hover {
+	color: gray;
+}
+
+.dark-mode #iframe_css a.clic {
+	color: gray;
+}
+
+.dark-mode #iframe_css nav a {
+	color: gray;
+}
+
+.dark-mode #iframe_css nav a:hover {
+	color: gray;
+}
+
+.dark-mode #iframe_css nav a.clic {
+	color: gray;
+}
+
+.dark-mode #iframe_css footer {
+	color: gray;
+}
+
+.dark-mode #iframe_css table, th, td {
+	border: 1px solid gray;
+}
+
